@@ -1,15 +1,20 @@
-.navbar-dark {
+.navigation {
+    display: flex;
     background-image: linear-gradient(#101010, #404040);
     border-bottom: 2px solid black;
     border-radius: 0px;
     font-family: monospace;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
 }
-.navbar-dark .navbar-brand {
+.titlebar {
     color: white;
     letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 1.5em;
 }
 body {
-    font-family: 'Roboto Condensed', sans-serif;
     background-color: #606060;
     background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
     margin-bottom: 2%;
@@ -19,7 +24,7 @@ body {
     width: 62%;
     margin: 30px auto;
     display: grid;
-    gap: 30px;
+    gap: 50px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .album-cover {
@@ -93,7 +98,7 @@ hr {
 }
 @keyframes float {
     to {
-        transform: translate(0%, -4%);
+        transform: translate(0, -20px);
     }
 }
 /* @keyframes focus {
