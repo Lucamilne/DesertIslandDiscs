@@ -1,9 +1,19 @@
-var frames = document.querySelectorAll(".frame");
-var order = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+const frames = document.querySelectorAll(".frame");
+let order = frameCount(frames.length - 1);
+
+function frameCount(n) {
+    if (n < 0) {
+        return [];
+    } else {
+        const frameArray = frameCount(n - 1);
+        frameArray.push(n);
+        return frameArray;
+    }
+}
 
 // Fisher-Yates Shuffle
 function shuffle(array) {
-    var m = array.length, t, i;
+    let m = array.length, t, i;
 
     // While there remain elements to shuffle…
     while (m) {
@@ -22,6 +32,6 @@ function shuffle(array) {
 
 shuffle(order);
 
-for (var i =  0; i < frames.length; i++) {
+for (let i =  0; i < frames.length; i++) {
     frames[i].style.order = order[i].toString();
 };
