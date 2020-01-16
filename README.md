@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+Desert Island Discs was my first ever web design project, 1 month into learning. It's unadorned, simply existing to share my favourite records and to practice responsive webpage design. It was first built in Bootstrap, after which I stripped away to make way for my own CSS. 
 
-You can use the [editor on GitHub](https://github.com/Lucamilne/DesertIslandDiscs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+- Hovering over the frames will display the artist, track name and year of release.
+- Clicking on a frame will open the track in spotify.
+- a Fisher-Yates shuffle is employed by a JS script to randomise the order of frames on page load.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Please note: the artwork used are for my personal use and not intended for commercial use.
 
-### Markdown
+Please find a track list below:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Van Morrison - Astral Weeks 
+Van Morrison - Caravan
+Van Morrison - Fair Play
+Van Morrison - Sense of Wonder
+Radiohead - House of Cards
+Radiohead - How to Disappear Completely
+The Smiths - Rusholme Ruffians
+The Smiths - The Boy With the Thorn in His Side
+Amy Winehouse - Love is a Losing Game
+Fleet Foxes - Drops in the River
+George Harrison - If Not For You (Bob Dylan cover)
+David Bowie - Teenage Wildlife
+The Killers - Glamorous Indie Rock 'n' Roll
+Smashing Pumpkins - 1979
+Lorraine Ellison - Stay With Me
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Lucamilne/DesertIslandDiscs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
